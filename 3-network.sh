@@ -13,7 +13,6 @@ PKGS=(
         'network-manager-applet'    # System tray icon/utility for network connectivity
         'dhclient'                  # DHCP client
         'libsecret'                 # Library for storing passwords
-	'iwctl'
 )
 
 for PKG in "${PKGS[@]}"; do

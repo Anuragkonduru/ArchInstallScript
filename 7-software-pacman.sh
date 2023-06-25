@@ -150,7 +150,6 @@ PKGS=(
 'sddm'
 'sddm-sugar-candy-git' 
 'speedread-git' 
-'speedtest-cli-git' 
 'spotify' 
 'stacer' 
 'starship' 
