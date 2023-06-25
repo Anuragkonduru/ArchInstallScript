@@ -22,7 +22,6 @@ PKGS=(
     'gnome-keyring'         # System password storage
     #'gtop'                  # System monitoring via terminal
     'gufw'                  # Firewall manager
-    'hardinfo'              # Hardware info app
     'htop'                  # Process viewer
     'inxi'                  # System information utility
     'jq'                    # JSON parsing library
@@ -83,13 +82,12 @@ PKGS=(
     # MEDIA ---------------------------------------------------------------
 
     'lollypop'              # Music player
-    'simplescreenrecorder'  # Record your screen
     'vlc'                   # Video player
-    'flameshot-git'         # Screen capture.
+    'flameshot'         # Screen capture.
 
     # GRAPHICS AND DESIGN -------------------------------------------------
 
-    'gcolor2'               # Colorpicker
+    #''               # Colorpicker
     'gimp'                  # GNU Image Manipulation Program
     'pngcrush'              # Tools for optimizing PNG images
     'ristretto'             # Multi image viewer
@@ -98,78 +96,61 @@ PKGS=(
 
     'galculator'            # Gnome calculator
     'hunspell'              # Spellcheck libraries
-    'hunspell-en'           # English spellcheck library
     'libreoffice-fresh'     # Libre office with extra features
     'geany'                 # simple text editor
     'xpdf'                  # PDF viewer
 
     # VIRTUALIZATION ------------------------------------------------------
 
-    # Misc
-    'candy-beauty-icon-theme-git'
-'alacritty'
-'alsa-firmware'
-'alsa-lib'
-'alsa-plugins'
-'alsa-utils'
-'appstream '
-'arandr '
-'archlinux-logout-git'
-'archlinux-tweak-tool-git'
-'qt5-git'
-'qtile-git'
-'rofi-git'
-'sddm'
-'sddm-sugar-candy-git'
-'awesome-terminal-fonts'
-'base-devel'
-'brightnessctl'
-'catppuccin-gtk-theme-mocha'
-'copyq'
-'cronie'
-'dunst'
-'ffmpegthumbnailer'
-'kitty'
-'krusader'
-'kvantum'
-'megasync-bin'
-'mesa-git'
-'mpd'
-'mpv' 
-'ncmpcpp' 
-'neovim' 
-'nfs-utils' 
-'noto-fonts' 
-'pavucontrol' 
-'qtile-extras-git' 
-'qutebrowser' 
-'ranger' 
-'rofi' 
-'rofi-calc' 
-'rofi-emoji' 
-'sddm'
-'sddm-sugar-candy-git' 
-'speedread-git' 
-'spotify' 
-'stacer' 
-'starship' 
-'steam' 
-'sudo' 
-'ttf-apple-emoji' 
-'ttf-font-awesome' 
-'ttf-ms-fonts'
-'ttf-nerd-fonts-symbols'
-'ufw' 
-'vim' 
-'virt-manager' 
-'virt-viewer' 
-'visual-studio-code-bin' 
-'winetricks-git' 
-'xclip'
-'xf86-video-amdgpu' 
-'yay-git'
-'lxappearance'
-'qt5ct' 
+    'virt-manager' 
+    'virt-viewer' 
+
+    # Misc ---------------------------------------------------------------
+    'flatpak'
+    'polkit-gnome'
+    'alacritty'
+    'alsa-firmware'
+    'alsa-lib'
+    'alsa-plugins'
+    'alsa-utils'
+    'arandr'
+    'sddm'
+    'awesome-terminal-fonts'
+    'base-devel'
+    'brightnessctl'
+    'copyq'
+    'cronie'
+    'dunst'
+    'ffmpegthumbnailer'
+    'kitty'
+    'krusader'
+    'kvantum'
+    'mpd'
+    'mpv' 
+    'ncmpcpp' 
+    'neovim' 
+    'nfs-utils' 
+    'noto-fonts' 
+    'pavucontrol' 
+    'qutebrowser' 
+    'ranger' 
+    'rofi' 
+    'rofi-calc' 
+    'rofi-emoji' 
+    'sddm'
+    'starship' 
+    'ttf-font-awesome' 
+    'ttf-nerd-fonts-symbols'
+    'ufw' 
+    'vim' 
+    'xclip'
+    'xf86-video-amdgpu' 
+    'lxappearance'
+    'qt5ct'
+    'nano' 
+    'mtpfs'
+    'gvfs-mtp'
+    'gvfs-gphoto2'
  
 )
 

@@ -6,8 +6,8 @@ echo
 
 cd "${HOME}"
 
-echo "CLOING: AURIC"
-git clone "https://github.com/rickellis/AURIC.git"
+#echo "CLOING: AURIC"
+#git clone "https://github.com/rickellis/AURIC.git"
 
 
 PKGS=(
@@ -28,7 +28,7 @@ PKGS=(
     # MEDIA ---------------------------------------------------------------
 
     'spotify'                   # Music player
-    # 'aftershotpro3'             # Photo editor
+    'aftershotpro3'             # Photo editor
 
     # POST PRODUCTION -----------------------------------------------------
 
@@ -38,14 +38,34 @@ PKGS=(
     # THEMES --------------------------------------------------------------
 
     'paper-icon-theme'
+    'candy-beauty-icon-theme-git'
+
+    # MISC ----------------------------------------------------------------
+    'archlinux-logout-git'
+    'archlinux-tweak-tool-git'
+    'sddm-theme-sugar-candy-git'
+    'candy-icons-git'
+    'catppuccin-gtk-theme-mocha'
+    'megasync-bin'
+    'mesa-git'
+    'speedread-git'
+    'stacer'
+    'steam'
+    'ttf-apple-emoji'
+    'ttf-ms-fonts'
+    'visual-studio-code-bin'
+    'winetricks-git'
+    'hardinfo'
+    'autofs'
+    'gnome-disks'
+    'librewolf'
+    'brave-bin'
+    'picom-git'
+    'jmtpfs'
 )
 
-
-cd ${HOME}/AURIC
-chmod +x auric.sh
-
 for PKG in "${PKGS[@]}"; do
-    ./auric.sh -i $PKG
+    yay -S $PKG
 done
 
 echo
