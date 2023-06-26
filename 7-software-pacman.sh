@@ -151,13 +151,22 @@ PKGS=(
     'mtpfs'
     'gvfs-mtp'
     'gvfs-gphoto2'
+    'exa'
+    'xdg-desktop-portal-gtk'
+    'reflector'
+    'grub-customizer'
+    'malcontent'
  
 )
+
+sudo pacman -Rns xdg-desktop-portal-gnome --noconfirm --needed
 
 for PKG in "${PKGS[@]}"; do
     echo "INSTALLING: ${PKG}"
     sudo pacman -S "$PKG" --noconfirm --needed
 done
+
+sudo reflector --verbose --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 
 echo
 echo "Done!"

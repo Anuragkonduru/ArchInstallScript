@@ -62,10 +62,11 @@ PKGS=(
     'brave-bin'
     'picom-git'
     'jmtpfs'
+    'termtyper'
 )
 
 for PKG in "${PKGS[@]}"; do
-    yay -S $PKG
+    yay -S $PKG --noconfirm --needed
 done
 
 echo
