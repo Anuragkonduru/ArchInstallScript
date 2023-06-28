@@ -156,6 +156,8 @@ PKGS=(
     'reflector'
     'grub-customizer'
     'malcontent'
+    'qt6ct'
+    'trash-cli'
  
 )
 

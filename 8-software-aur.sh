@@ -42,6 +42,7 @@ PKGS=(
 
     # MISC ----------------------------------------------------------------
     'archlinux-logout-git'
+    'bibata-cursor-theme'
     'archlinux-tweak-tool-git'
     'sddm-theme-sugar-candy-git'
     'candy-icons-git'
@@ -63,6 +64,7 @@ PKGS=(
     'picom-git'
     'jmtpfs'
     'termtyper'
+    'mangohud-git'
 )
 
 for PKG in "${PKGS[@]}"; do

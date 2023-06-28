@@ -12,3 +12,5 @@ flatpak install flathub com.usebottles.bottles
 #flatpak install flathub io.github.mimbrero.WhatsAppDesktop
 flatpak install flathub com.obsproject.Studio
 flatpak install flathub io.github.shiftey.Desktop
+
+sudo flatpak override --filesystem=$HOME/.themes
