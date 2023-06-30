@@ -20,6 +20,8 @@ for PKG in "${PKGS[@]}"; do
     sudo pacman -S "$PKG" --noconfirm --needed
 done
 
+sudo systemctl enble --now NetworkManager
+
 echo
 echo "Done!"
 echo

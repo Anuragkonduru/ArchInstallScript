@@ -65,6 +65,7 @@ PKGS=(
     'jmtpfs'
     'termtyper'
     'mangohud-git'
+    'libwnck3'
 )
 
 for PKG in "${PKGS[@]}"; do

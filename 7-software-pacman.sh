@@ -158,6 +158,7 @@ PKGS=(
     'malcontent'
     'qt6ct'
     'trash-cli'
+    'tldr'
  
 )
 
