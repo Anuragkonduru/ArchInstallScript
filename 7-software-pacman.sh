@@ -159,6 +159,19 @@ PKGS=(
     'qt6ct'
     'trash-cli'
     'tldr'
+    'qemu'
+    'virt-manager' 
+    'virt-viewer' 
+    'dnsmasq' 
+    'vde2' 
+    'bridge-utils' 
+    'openbsd-netcat' 
+    'ebtables' 
+    'iptables' 
+    'libguestfs'
+    'audacity'
+    'noto-fonts-cjk'
+    'noto-fonts'
  
 )
 
