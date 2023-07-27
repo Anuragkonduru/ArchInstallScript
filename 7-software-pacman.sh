@@ -172,6 +172,7 @@ PKGS=(
     'audacity'
     'noto-fonts-cjk'
     'noto-fonts'
+    'fzf'
  
 )
 
