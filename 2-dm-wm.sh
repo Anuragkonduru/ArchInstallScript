@@ -9,6 +9,11 @@ PKGS=(
         'xfce4-goodies'         # All the extras
 )
 
+KDEPKGS=(
+        'plasma-desktop'                 # KDE Desktop
+)
+
+
 for PKG in "${PKGS[@]}"; do
     echo "INSTALLING: ${PKG}"
     sudo pacman -S "$PKG" --noconfirm --needed
