@@ -173,6 +173,8 @@ PKGS=(
     'noto-fonts-cjk'
     'noto-fonts'
     'fzf'
+    'xfce4-power-manager'
+    'kdeconnect'
  
 )
 
