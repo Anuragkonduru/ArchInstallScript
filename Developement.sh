@@ -19,6 +19,7 @@ PKGS1=(
     'npm'                   
     'python'                
     'yarn' 
+    'hugo'
                  
 )
 
@@ -51,7 +52,7 @@ echo
 
 ##Misc installs
 sudo npm install -g @angular/cli
-
+sudo npm i -g @angular/cli@16.2.12
 echo
 echo "Misc Installs Done is Done!"
 echo
