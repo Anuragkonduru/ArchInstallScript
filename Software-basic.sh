@@ -118,6 +118,8 @@ PKGS2=(
     'ticktick'
     'ttf-apple-emoji'
     'ttf-ms-fonts'
+    'whatsapp-for-linux'
+    'youtube-music'
 )
 
 for PKG in "${PKGS2[@]}"; do

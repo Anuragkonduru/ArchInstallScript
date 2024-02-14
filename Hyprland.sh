@@ -55,8 +55,10 @@ echo
 
 
 PKGS=(
-      'waybar' 
+      
       'qt5-wayland' 
+      'waybar'
+      'wl-clipboard'
       'xdg-desktop-portal-hyprland'            
 )
 
