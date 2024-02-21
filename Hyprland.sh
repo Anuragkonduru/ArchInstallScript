@@ -38,6 +38,7 @@ PKGS2=(
     'grimblast-git'
     'wireplumber'
     'ngw-look-bin'
+    'pyprland'
 )
 
 for PKG in "${PKGS2[@]}"; do

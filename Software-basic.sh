@@ -48,7 +48,8 @@ PKGS=(
     'networkmanager'
     'noto-fonts-cjk'
     'noto-fonts' 
-    'ntfs-3g'              
+    'ntfs-3g' 
+    'obsidian'             
     'os-prober'
     'papirus-icon-theme'
     'pavucontrol'
@@ -79,7 +80,8 @@ PKGS=(
     'wpa_supplicant'
     'xclip'
     'xdg-desktop-portal-gtk'
-    'zip'                   
+    'zip'  
+    'zoxide'                 
 )
 
 

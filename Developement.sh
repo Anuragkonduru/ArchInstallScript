@@ -52,7 +52,8 @@ echo
 
 ##Misc installs
 sudo npm install -g @angular/cli
-sudo npm i -g @angular/cli@16.2.12
+sudo npm install -g @angular/cli@16.2.12
+sudo npm install -g web-ext
 echo
 echo "Misc Installs Done is Done!"
 echo
