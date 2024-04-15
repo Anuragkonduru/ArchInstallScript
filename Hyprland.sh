@@ -39,6 +39,7 @@ PKGS2=(
     'wireplumber'
     'ngw-look-bin'
     'pyprland'
+    'xdg-desktop-portal-hyprland-git'
 )
 
 for PKG in "${PKGS2[@]}"; do
@@ -56,11 +57,13 @@ echo
 
 
 PKGS=(
-      
+      'grim'
       'qt5-wayland' 
       'waybar'
       'wl-clipboard'
-      'xdg-desktop-portal-hyprland'            
+      'pipewire' 
+      'slurp' 
+      'wireplumber'               
 )
 
 
@@ -94,3 +97,10 @@ sudo systemctl enble --now bluetooth
 echo
 echo "Done! with a Capital D"
 echo
+
+
+
+
+
+
+yay -S 
