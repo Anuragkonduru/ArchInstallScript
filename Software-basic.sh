@@ -100,12 +100,12 @@ cd "${HOME}"
 
 echo "CLOING: AUR"
 
-# git clone "https://aur.archlinux.org/yay.git"
-# cd yay
-# makepkg -si
-# cd ..
-# rm -r yay
-# echo "AUR Installed"
+git clone "https://aur.archlinux.org/yay.git"
+cd yay
+makepkg -si
+cd ..
+rm -r yay
+echo "AUR Installed"
 
 
 PKGS2=(

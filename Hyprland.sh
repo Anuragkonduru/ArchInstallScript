@@ -35,6 +35,7 @@ PKGS2=(
     'swww'
     'wlogout'
     'hyprpicker'
+    'hyprwayland-scanner'
     'grimblast-git'
     'wireplumber'
     'ngw-look-bin'
@@ -50,10 +51,10 @@ echo
 echo "AUR PKGs Done!"
 echo
 
-# git clone --recursive https://github.com/hyprwm/Hyprland
-# cd Hyprland
-# make all && sudo make install
-# cd ..
+git clone --recursive https://github.com/hyprwm/Hyprland
+cd Hyprland
+make all && sudo make install
+cd ..
 
 
 PKGS=(
