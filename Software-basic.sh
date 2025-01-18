@@ -1,12 +1,20 @@
 #!/usr/bin/env bash
 
 echo
+echo "UPDATING MIRRORS"
+echo
+
+sudo reflector --verbose --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+
+echo
 echo "INSTALLING SOFTWARE"
 echo
 
 PKGS=(
+    'archlinux-keyring'
     'alacritty'
     'audacity'
+    'locate'
     'awesome-terminal-fonts'
     'base-devel'
     'bleachbit'             
@@ -82,6 +90,19 @@ PKGS=(
     'xdg-desktop-portal-gtk'
     'zip'  
     'zoxide'                 
+    'neovide'
+    'lollypop'
+    'dolphin'
+    'steam'
+    'github-cli'
+    'bat'
+    'sshfs'
+    'arc-gtk-theme'
+    'chromium'
+    'tzdata'
+    'pinta'
+    'tmux'
+    'python-pipx'
 )
 
 
@@ -89,8 +110,6 @@ for PKG in "${PKGS[@]}"; do
     echo "INSTALLING: ${PKG}"
     sudo pacman -S "$PKG" --noconfirm --needed
 done
-
-sudo reflector --verbose --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 
 echo
 echo "INSTALLING AUR SOFTWARE"
@@ -100,11 +119,12 @@ cd "${HOME}"
 
 echo "CLOING: AUR"
 
-git clone "https://aur.archlinux.org/yay.git"
-cd yay
+sudo pacman -S --needed base-devel
+git clone https://aur.archlinux.org/paru.git
+cd paru
 makepkg -si
 cd ..
-rm -r yay
+rm -r paru
 echo "AUR Installed"
 
 
@@ -122,10 +142,18 @@ PKGS2=(
     'ttf-ms-fonts'
     'whatsapp-for-linux'
     'youtube-music'
+    'spotdl'
+    'tauon-music-box'
+    'manga-tui'
+    'numix-icon-theme-git'
+    'xdg-ninja'
+    'zen-browser-bin'
+    'visual-studio-code-bin'
+    'rose-pine-gtk-theme-full'
 )
 
 for PKG in "${PKGS2[@]}"; do
-    yay -S $PKG --noconfirm --needed
+    paru -S $PKG --noconfirm --needed
 done
 
 echo

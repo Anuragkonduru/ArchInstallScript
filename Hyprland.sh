@@ -40,11 +40,12 @@ PKGS2=(
     'wireplumber'
     'ngw-look-bin'
     'pyprland'
+    'hyprutils-git'
     'xdg-desktop-portal-hyprland-git'
 )
 
 for PKG in "${PKGS2[@]}"; do
-    yay -S $PKG --noconfirm --needed
+    paru -S $PKG --noconfirm --needed
 done
 
 echo
@@ -100,8 +101,3 @@ echo "Done! with a Capital D"
 echo
 
 
-
-
-
-
-yay -S 

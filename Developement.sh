@@ -42,17 +42,16 @@ PKGS2=(
 )
 
 for PKG in "${PKGS2[@]}"; do
-    yay -S $PKG --noconfirm --needed
+    paru -S $PKG --noconfirm --needed
 done
 
 echo
-echo "YAY Done!"
+echo "PARU Done!"
 echo
 
 
 ##Misc installs
 sudo npm install -g @angular/cli
-sudo npm install -g @angular/cli@16.2.12
 sudo npm install -g web-ext
 echo
 echo "Misc Installs Done is Done!"
